@@ -1,4 +1,5 @@
 const { prompt } = require('inquirer')
+const { writeFile } = require('fs')
 
 prompt([
     {
@@ -27,7 +28,8 @@ prompt([
         message: 'Enter your GitHub URL'
     }
 ])
-.then( res => {
-    console.log(res)
+.then( ({ name, location, bio, LinkedIn, github}) => {
+   
 })
 .catch( err => confirm.log(err))
+
