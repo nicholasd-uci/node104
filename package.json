@@ -1,0 +1,23 @@
+{
+  "name": "node104",
+  "version": "1.0.0",
+  "description": "Node104 is all about fine tuning our AJAX server-side skills and practicing object oriented programming. In addition we also go over Constructors and how to better organize our code with Constructors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasd-uci/node104.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholasd-uci/node104/issues"
+  },
+  "homepage": "https://github.com/nicholasd-uci/node104#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
