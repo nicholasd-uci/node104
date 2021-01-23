@@ -38,16 +38,17 @@ prompt([
        <title>Document</title>
     </head>
     <body>
-       <h1>Name: </h1>
-       <h2>Location: </h2>
-       <p>Bio: </p>
-       <a href="http://" target="_blank"></a>
-       <a href="http://" target="_blank"></a>
+       <h1>Name: ${name}</h1>
+       <h2>Location: ${location} </h2>
+       <p>Bio: ${bio}</p>
+       <a href="http://${LinkedIn}" target="_blank"></a>
+       <a href="http://${github}" target="_blank"></a>
     </body>
     </html>
-   
-   
-   `)
+   `, err => {
+       if (err) { console.log(err) }
+       console.log('Portfolio Page Created!')
+   })
 })
 .catch( err => confirm.log(err))
 
