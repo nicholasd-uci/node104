@@ -1,5 +1,5 @@
 const { prompt } = require('inquirer')
-const { writeFile } = require('fs')
+const { writeFile, fstat } = require('fs')
 
 prompt([
     {
@@ -29,7 +29,25 @@ prompt([
     }
 ])
 .then( ({ name, location, bio, LinkedIn, github}) => {
+   writeFile('Portfolio.html', `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+    </head>
+    <body>
+       <h1>Name: </h1>
+       <h2>Location: </h2>
+       <p>Bio: </p>
+       <a href="http://" target="_blank"></a>
+       <a href="http://" target="_blank"></a>
+    </body>
+    </html>
    
+   
+   `)
 })
 .catch( err => confirm.log(err))
 
