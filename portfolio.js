@@ -53,7 +53,7 @@ prompt([
                 margin-right: 750px;
                 padding-left: 25px;
                 padding-top: 25px;
-                padding-bottom: 25px;
+                padding-bottom: 50px;
             }
         </style>
     </head>
@@ -65,10 +65,14 @@ prompt([
         </div>
         <div id="box">
             <h1>Name: ${name}</h1>
-        <h2>Location: ${location} </h2>
-        <p>Bio: ${bio}</p>
-        <a href="http://${LinkedIn}" target="_blank" alt="LinkedIn Link Here"></a>
-        <a href="http://${github}" target="_blank"></a>
+            <h2>Location: ${location} </h2>
+            <p>Bio: ${bio}</p>
+            <a href="https://www.linkedin.com/in/nicholas-dallas-54b5b097/" target="_blank">Your LinkedIn Account</a>
+            <a href="https://github.com/nicholasd-uci" target="_blank">Your GitHub Account</a>
+        </div>
+        <div>
+            <p><center> Please Feel free to contact us for customer support</center></p>
+            <P><center> 714.274.5949 </center></p>
         </div>
     </body>
     </html>
