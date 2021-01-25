@@ -60,15 +60,17 @@ prompt([
     <body>
         <div id="welcome">
             <h1>Welcome ${name}, to your portfolio!</h1>
-            <h3>Please see you information below</h3>
+            <h3>Please see your information below</h3>
             <h5><u>Home Town: ${location}</u></h5>
         </div>
         <div id="box">
-            <h1>Name: ${name}</h1>
-            <h2>Location: ${location} </h2>
-            <p>Bio: ${bio}</p>
-            <a href="https://www.linkedin.com/in/nicholas-dallas-54b5b097/" target="_blank">Your LinkedIn Account</a>
-            <a href="https://github.com/nicholasd-uci" target="_blank">Your GitHub Account</a>
+            <h1>First Name: ${name}</h1>
+            <h2>Your Hometown: ${location} </h2>
+            <p>Portfolio Bio: ${bio}</p>
+            <ol>
+                <a href="https://www.linkedin.com/in/nicholas-dallas-54b5b097/" target="_blank">Your LinkedIn Account</a>
+                <a href="https://github.com/nicholasd-uci" target="_blank">Your GitHub Account</a>
+            <ol>
         </div>
         <div>
             <p><center> Please Feel free to contact us for customer support</center></p>
