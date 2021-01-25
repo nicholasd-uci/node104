@@ -68,8 +68,8 @@ prompt([
             <h2>Your Hometown: ${location} </h2>
             <p>Bio: ${bio}</p>
             <ol>
-                <a href="https://www.linkedin.com/in/nicholas-dallas-54b5b097/" target="_blank">Your LinkedIn Account</a>
-                <a href="https://github.com/nicholasd-uci" target="_blank">Your GitHub Account</a>
+                <a href="https://www.linkedin.com/in/nicholas-dallas-54b5b097/" target="_blank">LinkedIn Account</a>
+                <a href="https://github.com/nicholasd-uci" target="_blank">GitHub Account</a>
             <ol>
         </div>
         <div>
