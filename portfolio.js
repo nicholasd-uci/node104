@@ -66,7 +66,7 @@ prompt([
         <div id="box">
             <h1>First Name: ${name}</h1>
             <h2>Your Hometown: ${location} </h2>
-            <p>Portfolio Bio: ${bio}</p>
+            <p>Bio: ${bio}</p>
             <ol>
                 <a href="https://www.linkedin.com/in/nicholas-dallas-54b5b097/" target="_blank">Your LinkedIn Account</a>
                 <a href="https://github.com/nicholasd-uci" target="_blank">Your GitHub Account</a>
@@ -74,7 +74,7 @@ prompt([
         </div>
         <div>
             <p><center> Please Feel free to contact us for customer support</center></p>
-            <P><center> 714.274.5949 </center></p>
+            <P><center> 888.111.0000 </center></p>
         </div>
     </body>
     </html>
