@@ -9,8 +9,8 @@ inquirer.prompt({
 })
 .then(() => {
     axios.get('https://swapi.dev/api/people/?search=r2')
-    .then(res => {
-        console.log(res.data)
+    .then(({ data }) => {
+        console.log(data)
     })
     .catch(err => console.log(err))
 })
