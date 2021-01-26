@@ -7,7 +7,11 @@ Node104 is all about fine tuning our AJAX server-side skills and practicing obje
 
 ![writeFile](./video/writeFile.gif)
 
+## AXIOS Request to SWAPI
 
+>
+
+![starWars](./video/starWars.gif)
 
 ## Reference Section 
 - [Corse-anywhere](https://github.com/aydinsenih/cors-anywhere)
