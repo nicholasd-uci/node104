@@ -7,10 +7,18 @@ Node104 is all about fine tuning our AJAX server-side skills and practicing obje
 
 > By doing so we can edit the way the html would be displayed by using `temp literals`
 
-***Figure One***
+***Figure 1a***
 
+![prompt](./photos/prompt.png)
+
+***Figure 1b***
+
+![tempLit](./photos/tempLit.PNG)
+
+***Figure 2***
 
 ![writeFile](./Video/writeFile.gif)
+
 
 ## AXIOS Request to SWAPI
 
