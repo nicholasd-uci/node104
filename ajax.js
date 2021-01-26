@@ -1,5 +1,23 @@
+const inquirer = require('inquirer')
 const axios = require('axios')
 
-ajax.get()
-.then()
-.catch()
+
+inquirer.prompt({
+    type: 'input',
+    name: 'people',
+    message: 'Which Star Wars Character are you looking for?'
+})
+.then(() => {
+    axios.get('https://swapi.dev/api/people/?search=r2')
+    .then(res => {
+        console.log(res.data)
+    })
+    .catch(err => console.log(err))
+})
+.catch( err => console.log(err))
+
+
+
+
+
+
