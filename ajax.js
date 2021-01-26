@@ -1,7 +1,6 @@
 const inquirer = require('inquirer')
 const axios = require('axios')
 
-
 inquirer.prompt({
     type: 'input',
     name: 'people',
@@ -15,9 +14,3 @@ inquirer.prompt({
     .catch(err => console.log(err))
 })
 .catch( err => console.log(err))
-
-
-
-
-
-

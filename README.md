@@ -24,6 +24,12 @@ Node104 is all about fine tuning our AJAX server-side skills and practicing obje
 
 > In this example we test an axios request with a prompt to the user.
 
+***Figure 1a***
+
+![swapi](./photos/swapi.png)
+
+***Figure 1b***
+
 ![starWars](./Video/starWars.gif)
 
 ## Source Reference 
