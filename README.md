@@ -5,15 +5,20 @@ Node104 is all about fine tuning our AJAX server-side skills and practicing obje
 
 > In addition to being able to create a .txt file, we can also make an HTML doc with the writeFile method. 
 
+> By doing so we can edit the way the html would be displayed by using `temp literals`
+
+***Figure One***
+
+
 ![writeFile](./Video/writeFile.gif)
 
 ## AXIOS Request to SWAPI
 
->
+> In this example we test an axios request with a prompt to the user.
 
 ![starWars](./Video/starWars.gif)
 
-## Reference Section 
+## Source Reference 
 - [Corse-anywhere](https://github.com/aydinsenih/cors-anywhere)
 - [SWAPI](https://swapi.dev/documentation#javascript)
 
